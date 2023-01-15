@@ -1,3 +1,35 @@
-body {
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+
+    background-color: #1f2937;
+}
+.logo {
+    margin-left: 100px;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+nav {
+    margin-left: 500px;
+}
+ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
 }
