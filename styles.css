@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 #header {
@@ -60,7 +60,7 @@ a {
     margin-top: 20px;
     width: 125px;
     height: 40px;
-    background-color: rgb(19, 90, 156);
+    background-color: #3882f6;
     border-radius: 5px;
     color: #e5e7eb;
     font-weight: bold;
@@ -76,4 +76,31 @@ a {
 }
 .image p {
     padding: 30px;
+}
+#information-header {
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+#information-header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 30px;
+}
+.container-information-header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.image-items {
+    width: 175px;
+    height: 175px;
+}
+.container-information-header p {
+    width: 175px;
+    height: 75px;
+    font-size: 18px;
+    color: #1f2937;
+    margin-top: 10px;
 }
